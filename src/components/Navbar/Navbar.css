@@ -1,0 +1,22 @@
+.nav {
+    background-color: black;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 20px;
+    padding-bottom: 25px;
+}
+
+
+.nav ul li .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 20px;
+}
+
+.active {
+    border-bottom: 2px solid rgb(87, 255, 9);
+}
